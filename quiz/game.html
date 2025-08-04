@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title> KNOW IT! - Quiz</title>
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+        <body>
+            <audio autoplay loop=10>
+                <source src="bgmgame.mp3" type="audio/mp3">
+            </audio>
+
+            <nav>
+                <a class="navicon" href="index.html">
+                    <div class="logo-image">
+                        <img src="logo.png" class="logo">
+                    </div>
+                </a>
+            </nav>
+
+            <div class="container">
+                <div id="game" class="justify-center flex-column">
+                    <div id="hud">
+                        <div class="hud-item">
+                            <p id="progressText" class="hud-prefix">
+                                Question
+                            </p>
+                            <!--<div id="timer">
+                                <h6>Time Consumed:</h6>
+                                <h6 id="time">00</h6>
+                            </div>-->
+                        </div>
+                        <div class="hud-item">
+                            <p class="hud-prefix">
+                                Score
+                            </p>
+                            <h1 class="hud-main-text" id="score">
+                                0
+                            </h1>
+                        </div>
+                    </div>
+                    <h1 id="question">What makes the space completely silent?</h1>
+                    <div class="choice-container">
+                        <p class="choice-prefix">A)</p>
+                        <p class="choice-text" data-number="1">Choice 1</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">B)</p>
+                        <p class="choice-text" data-number="2">Choice 2</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">C)</p>
+                        <p class="choice-text" data-number="3">Choice 3</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">D)</p>
+                        <p class="choice-text" data-number="4">Choice 4</p>
+                    </div>
+                </div>
+            </div>
+            <script src="game.js"></script>
+        </body>
+    </head>
+</html>

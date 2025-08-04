@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    background: url(bg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* landing page */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border: none;
+}
+
+nav{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#question {
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 20px;
+    font-size: 2rem;
+    width: 90%;
+    background-color: rgb(49, 71, 122);
+    border-radius: 3rem;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 60%;
+    border-radius: 5px;
+    background: rgb(49, 147, 177);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-width: 2rem;
+    margin: 0, 8;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.choice-container:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}   
+.choice-prefix{
+    padding: 1rem 2.5rem;
+    color: white;
+}
+.choice-text{
+    padding: 1rem;
+    width: 100%;
+    color: white;
+}
+.correct{
+    background: linear-gradient(32deg, rgba(11, 223,36) 0%, rgb(41,232,111)100%);
+}
+.incorrect{
+    background: linear-gradient(32deg, rgba(230, 29,29, 1) 0%, rgb(224,11,11,1)100%);
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+    height: 20;
+    color: #fff;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-left: 6rem;
+    padding-right: 7rem;
+}
+
+.hud-main-text{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    padding-right: 5rem;
+}
+
+/* timer (non functional)
+#timer {
+    width: 14.5rem;
+    height: 7.2rem;
+    border: 0.4rem solid violet;
+    background-color:violet;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+#timer h6 {
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+    color: white;
+    margin: 10px 10px;
+}
+
+#timer #time {
+    height: 44px;
+    width: 50px;
+    color: white;
+    /* border: 1px solid #b0c4d8; 
+    border-radius: 4px;
+    margin: auto;
+}
+/* progress bar (non functional)
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarfull {
+    height: 100%;
+    background:rgb(11,223,36);
+    width: 0%;
+}
+*/
+@media screen and (max-width: 768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}

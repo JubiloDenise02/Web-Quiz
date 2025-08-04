@@ -1,0 +1,29 @@
+|Greetings|
+
+--- Good evening everyone, I am Denise, the leader of group7 and I am going to present to all of you our user-friendly website that contains our quiz named KNOW IT! The Trivia Game ---
+
+|Share Screen|
+
+*goal*
+this quiz is all about general Science. The goal of this game is to make the user have or recall some information and they need to gain points that will display at the leaderboard.
+
+*audience target*
+our audience target is 13 and above years old. So pede to sa mga studyante and also adults that will gain or want to refresh their knowledge.
+
+*homepage*
+--- Here we have our homepage, on the top of the left side we have our logo "KNOW IT! Trivia Game", and dto narin yung pinaka welcome page. there are 2 buttons which is Play the game and high score. When the player/user click on the button here(PLAY), madadirect sya into another page which is our instruction page.(click)---
+
+*intructionpage*
+--- in this page, the instuction of the game will appear so that the user will know the flow of the game/quiz. Nagdesign or naglagay kami ng dalawang buttons which is yung start and exit.. kung hindi nagustuhan ng player yung game pede na sya magexit and mapupunta sa hompage pero pag gusto nya, click nya yung start.(click)---
+
+*gamepage*
+--- pagkaclick madadirect naman sa pinaka game. here meron po sa left side kung pang ilang question na yung sinasagutan ng user. sa right naman po is yung score. then we have the questions and 4 buttons for the possible answer. rambol questions ito pedeng true or false and multiple choice. pag tama yung sagot ng user magcocolor green and madadagdagan ng points sa taas kapag mali naman color red. every click ng answer automatically mapupunta sa next question. if gusto naman magexit nilagyan namin ng link yung logo then mapupunta sa homepage(click). --- (ask kung sino gusto magsagot-volunteer, may prize na makukuha. 15questions, 100points each. pag nakaabot ng 500 upto 900 points may P100 gcash pag naman 1000+ points P200 gcash, and pag naman hindi umabot ang points sa mga nabanggit may consolation prize na P50 gcash. isa lang ang magsasagot raised hand agad para mauna.)
+
+*end page/ save page*
+--- dto naman pedeng isave yung points and nickname ng user, if want ng user type lang ng nickname sa nilagay naming input box then click save or press the enter key sa keyboard if gusto naman nyang umulit click lang yung play again and if want na magexit click lang yung home button. try natin ilagay yung nickname ni (___) then ayan bumalik na sa home wwhich means dapat nasave sya sa high score button . ---
+
+*highscore page*
+--- then pagclick naman sa high score page, dto na makikita yung leader board and makikita nyo nakasave na yung name and points ng user. Ang maximum list na makikita dto ay 5 yung nasa 1st list ay yung may pinakamataas na points. and naglagay na din kami ng button for exit.(click) ---
+
+*Closing*
+--- that's all from our group. Thank you for listening and participating.

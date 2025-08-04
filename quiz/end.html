@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devise-width, initial-scal=1.0">
+
+    <title> KNOW IT! - Score </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio autoplay loop=10>
+        <source src="bgminstruc.mp3" type="audio/mp3">
+    </audio>
+
+    <nav>
+        <img src="logo.png" class="logo">
+    </nav>
+
+    <div class="main">
+        <div class="square">
+            
+            <div id="end" class="f_center f_column">
+                <h1 id="finalScore">0</h1>
+                <form class="end-square">
+                    <h2 id="end-text">Save your Score!</h2>
+                    <input type="text" name="name" id="username" placeholder="Enter your Nickname">
+                    <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Enter</button>
+                </form>
+                <a href="instruction.html" class="btn">Play Again <i class="fa fa-rotate-right"></i></a>
+                <a href="index.html" class="btn">Home <i class="fas fa-home"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
